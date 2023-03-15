@@ -1,3 +1,9 @@
+# Create terminal new tab with working directory
+
+```
+io.elementary.terminal -t --working-directory=$HOME/projects/..
+```
+
 # Drivers for HP DeskJet Ink Advantage 5075
 
 - Download latest `hplip-*.run` file for Elementary OS from [website](https://developers.hp.com/hp-linux-imaging-and-printing/gethplip)
