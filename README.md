@@ -1,4 +1,8 @@
-# Create terminal new tab with working directory
+# Create new terminal tab with the same working directory as previous one
+
+- double click on already opened terminal tab 
+
+# Create new terminal tab with working directory
 
 ```
 io.elementary.terminal -t --working-directory=$HOME/projects/..
