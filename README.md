@@ -1,3 +1,12 @@
+# Disable screen blacking
+
+```
+$ gsettings set org.gnome.desktop.session idle-delay 0
+$ xset -dpms
+$ xset s off
+$ xset s noblank
+```
+
 # Search in terminal history
 
 You can use history | grep [search term] to show history that includes the term, or if you want to go through the matching history one at a time (skipping duplicates) you can use ctrl+r, enter the start of the command, and press ctrl+r repeatedly to go back though the results.
